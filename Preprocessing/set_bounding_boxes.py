@@ -1,37 +1,3 @@
-'''
-Date : January 2017
-
-Authors : Zhiming Luo, Pierre-Marc Jodoin from the University of Sherbrooke
-
-Description : code used to visualize some images from the MIO-TCD localization
-            training dataset. The bounding boxes are in the train.csv file
-            provided with the dataset.  Please see http://tcd.miovision.com/
-            for more details on the dataset
-
-Execution : simply type the following command in a terminal:
-
-   >> python set_bounding_boxes.py ./train/ gt_train.csv
-or
-   >> python view_bounding_boxes.py ./test/ your_results_test.csv
-
-NOTE: this code was developed and tested with Python 3.5.2 and Linux
-      (Ubuntu 14.04)
-
-Disclamer:
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-'''
-
 from seaborn import color_palette
 import numpy as np
 import cv2
